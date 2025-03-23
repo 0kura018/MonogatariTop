@@ -1,0 +1,123 @@
+body {   
+    background-image: url('BGPHOTO.png');
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(144, 238, 144, 0.35);
+}
+
+.image {
+    width: 450px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.table-container {
+    width: 80%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;    
+}
+td {
+    backdrop-filter: blur(2px);
+    background-color: rgba(144, 238, 144, 0.35);
+    font-family: "Font",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: red;
+    -webkit-text-stroke: 0.5px black;
+}
+th {
+    background-color: rgb(197, 255, 156);
+    font-family: "Font",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: darkred;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.lyrics-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.lyrics-text {
+    flex: 1;
+    margin: 10px;
+}
+
+.lyrics-image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.text {
+    font-family: "Font",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    color: blue;
+    -webkit-text-stroke: 0.75px aqua;
+}
+a {
+    text-decoration: none;
+    color: deeppink;
+    font-size: 35px;
+    -webkit-text-stroke: 0.5px black;
+}
+    a:hover{
+        color:darkblue;
+    }
+
+@font-face {
+    font-family: "Font";
+    src: url("fonts/font.ttf");
+}
+.three-words {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #f9f9f9;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Font",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+    .three-words span:not(:last-child) {
+        margin-right: 400px;
+    }
